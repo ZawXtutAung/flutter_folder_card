@@ -15,3 +15,28 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # flutter_folder_card
+# Your Home Dart class
+```dart
+ SimpleFoldingCell.create(
+     frontWidget: WidgetName=first(index),//First Widget
+     innerWidget:WidgetName= second(index),//Second Widget
+ )
+//Todo First Widget
+ Widget first(int index) {
+return Builder(builder: ((xcontext) {
+     return Container()
+}))
+ }
+
+ //Todo second Widget
+ Widget second(int index) {
+return Builder(builder: ((xcontext) {
+     return Container()
+}))
+ }
+```
+#Pubspec.yaml
+```yaml
+dependencies:
+ folding_cell: ^1.0.2
+```
